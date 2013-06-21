@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.carrefour"
+    package="com.intellemodules.carrefour"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -10,17 +10,47 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/carrefour_logo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.carrefour.MainActivity"
+            android:name="com.intellemodules.carrefour.SplashScreenActivity"
+            android:label="" 
+            android:theme="@android:style/Theme.NoTitleBar" >
+            
+        </activity>
+        <activity
+            android:name="com.intellemodules.carrefour.MainMenuActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.intellemodules.carrefour.PromotionsActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.intellemodules.carrefour.DepartmentsActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.intellemodules.carrefour.ServicesActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.intellemodules.carrefour.BranchesActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.intellemodules.carrefour.ShoppingListActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.intellemodules.carrefour.YouAndUsActivity"
+            android:label="" >
         </activity>
     </application>
 
